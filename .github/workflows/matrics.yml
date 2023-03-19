@@ -42,7 +42,6 @@ jobs:
           filename: metrics.plugin.languages.indepth.svg
           token: ${{ secrets.METRICS_SUDO_TOKEN }}
           base: ""
-          plugin_languages: yes
           plugin_languages_ignored: >-
             html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell,
             gnuplot
@@ -71,20 +70,20 @@ jobs:
 #           plugin_habits_charts: yes
 #           config_timezone: Europe/Riga
       
-      - name: GitHub Skyline
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.skyline.svg
-          token: NOT_NEEDED
-          base: ""
-          plugin_skyline: yes
-          plugin_skyline_year: 2022
+#       - name: GitHub Skyline
+#         uses: lowlighter/metrics@latest
+#         with:
+#           filename: metrics.plugin.skyline.svg
+#           token: NOT_NEEDED
+#           base: ""
+#           plugin_skyline: yes
+#           plugin_skyline_year: 2022
           
-      - name: Full history calendar
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.calendar.full.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_calendar: yes
-          plugin_calendar_limit: 0
+#       - name: Full history calendar
+#         uses: lowlighter/metrics@latest
+#         with:
+#           filename: metrics.plugin.calendar.full.svg
+#           token: ${{ secrets.METRICS_TOKEN }}
+#           base: ""
+#           plugin_calendar: yes
+#           plugin_calendar_limit: 0
