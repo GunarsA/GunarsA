@@ -28,10 +28,11 @@ jobs:
       - name: Indepth analysis
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.languages.indepth.svg
           token: ${{ secrets.METRICS_SUDO_TOKEN }}
+          filename: metrics.plugin.languages.indepth.svg
           base: ""
           plugin_languages: yes
+          user: GunarsA
           plugin_languages_indepth: yes
           plugin_languages_sections: most-used, recently-used
           plugin_languages_details: lines, bytes-size
