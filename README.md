@@ -1,3 +1,3 @@
 
-![Metrics](/github-metrics.svg)
-![Isometric commit calendar](/metrics.plugin.isocalendar.svg)
+![Metrics](/images/github-metrics.svg)
+![Isometric commit calendar](/images/metrics.plugin.isocalendar.svg)
