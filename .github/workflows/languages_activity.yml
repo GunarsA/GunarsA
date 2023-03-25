@@ -25,6 +25,7 @@ jobs:
           plugin_languages_details: lines, bytes-size
           plugin_languages_analysis_timeout: 60
           plugin_languages_analysis_timeout_repositories: 15
+          plugin_languages_skipped: GunarsA/CultureGenerator,GunarsA/LU-TT1-Md3
           
       - name: Custom 2
         uses: lowlighter/metrics@latest
@@ -39,7 +40,7 @@ jobs:
           plugin_languages_details: lines, bytes-size
           plugin_languages_analysis_timeout: 60
           plugin_languages_analysis_timeout_repositories: 15
-          plugin_languages_skipped: GunarsA/z-nextjs-blog
+          plugin_languages_skipped: GunarsA/CultureGenerator,GunarsA/LU-TT1-Md3
           
 #       - name: Indepth analysis
 #         uses: lowlighter/metrics@latest
