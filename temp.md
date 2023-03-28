@@ -1,0 +1,2 @@
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=GunarsA&count_private=true&theme=transparent)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=GunarsA&exclude_repo=CultureGenerator,LU-TT1-Md3&langs_count=10&layout=compact&theme=transparent)](https://github.com/anuraghazra/github-readme-stats)
