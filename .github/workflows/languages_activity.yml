@@ -26,6 +26,7 @@ jobs:
           plugin_languages_analysis_timeout: 60
           plugin_languages_analysis_timeout_repositories: 15
           plugin_languages_skipped: GunarsA/CultureGenerator,GunarsA/LU-TT1-Md3
+          plugin_languages_indepth_custom: GunarsA/CP-Codeforces
           
       - name: Custom 2
         uses: lowlighter/metrics@latest
@@ -41,6 +42,7 @@ jobs:
           plugin_languages_analysis_timeout: 60
           plugin_languages_analysis_timeout_repositories: 15
           plugin_languages_skipped: GunarsA/CultureGenerator,GunarsA/LU-TT1-Md3
+          plugin_languages_indepth_custom: GunarsA/CP-Codeforces
           
       - name: Recently used
         uses: lowlighter/metrics@latest
@@ -49,6 +51,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_languages: yes
+          plugin_languages_indepth: yes
           plugin_languages_ignored: >-
             html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell,
             gnuplot
