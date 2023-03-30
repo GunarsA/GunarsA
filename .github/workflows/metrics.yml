@@ -18,7 +18,6 @@ jobs:
           token: ${{ secrets.METRICS_SUDO_TOKEN }}
           filename: images/github-metrics.svg
           config_timezone: Europe/Riga
-          config_order: base.header, base.activity, base.community, base.repositories, base.metadata, languages, isocalendar
           commits_authoring: Gunārs Ābeltiņš, GunarsA, gunars2003@gmail.com
           base_indepth: yes
           
