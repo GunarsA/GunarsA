@@ -43,7 +43,6 @@ jobs:
           plugin_languages_analysis_timeout: 60
           plugin_languages_analysis_timeout_repositories: 15
           plugin_languages_skipped: GunarsA/CultureGenerator,GunarsA/LU-TT1-Md3
-          plugin_languages_indepth_custom: GunarsA/CP-Codeforces
           
 #       - name: Recently used
 #         uses: lowlighter/metrics@latest
