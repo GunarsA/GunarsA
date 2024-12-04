@@ -226,7 +226,7 @@
                     <rect mask="url(#languages-bar)" x="359.40700897156864" y="0" width="59.15713431463186" height="8" fill="#e34c26"/>
                     <rect mask="url(#languages-bar)" x="418.56414328620053" y="0" width="17.413324909506652" height="8" fill="#4F5D95"/>
                     <rect mask="url(#languages-bar)" x="435.97746819570716" y="0" width="11.92661224024522" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="447.9040804359524" y="0" width="7.657045922413852" height="8" fill="#563d7c"/>
+                    <rect mask="url(#languages-bar)" x="447.9040804359524" y="0" width="7.657045922413852" height="8" fill="#663399"/>
                     <rect mask="url(#languages-bar)" x="455.56112635836627" y="0" width="4.438873641633798" height="8" fill="#3D6117"/>
                 </svg>
                 <div class="row fill-width">
@@ -270,7 +270,7 @@
                         <div class="field language details">
                             <div class="field">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#563d7c" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                    <path fill="#663399" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                 </svg>
                                 CSS
                             </div>
@@ -2326,13 +2326,18 @@
                                 <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
                                 <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
                             </g>
+                            <g transform="translate(-3.4, 8)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
                         </g>
                     </g>
                 </svg>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 3 Dec 2024, 02:22:54 (timezone Europe/Riga) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 4 Dec 2024, 02:22:03 (timezone Europe/Riga) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
